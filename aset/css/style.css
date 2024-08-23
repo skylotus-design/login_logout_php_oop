@@ -1,0 +1,15 @@
+form {
+    max-width: 25%;
+    margin: 50px auto;
+}
+
+input[type=text], input[type=email],input[type=password] {
+    width: 100%;
+    margin: 5px auto 10px auto;
+    padding: 6px;
+}
+
+input[type=submit] {
+    padding: 6px;
+}
+
