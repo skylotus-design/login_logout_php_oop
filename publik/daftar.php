@@ -14,13 +14,13 @@
     <form action="" method="post">
 
         Nama Pengguna <br>
-        <input type="text" name="nama" pattern="[A-Za-z0-9]+">
+        <input type="text" name="nama" pattern="[A-Za-z0-9\s]+">
 
         Alamat Email <br>
         <input type="email" name="email">
 
         Kata Sandi: <br>
-        <input type="password" name="sandi">
+        <input type="password" name="sandi" pattern="[A-Za-z0-9]+">
 
         Ulang Kata Sandi: <br>
         <input type="password" name="sandi_ok">
