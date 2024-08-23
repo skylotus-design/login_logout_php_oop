@@ -17,7 +17,7 @@
         <input type="email" name="email">
 
         Kata Sandi: <br>
-        <input type="password" name="sandi">
+        <input type="password" name="sandi"  pattern="[A-Za-z0-9]+">
 
         <input type="submit" value="Masuk" name="login">
 
