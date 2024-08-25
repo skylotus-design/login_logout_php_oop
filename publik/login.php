@@ -3,7 +3,7 @@
 <head>
     <?php include('../app/app.php'); ?>
     <?php include('../app/db.php'); ?>
-    <?php include('../kontrol/login_kontrol.php');?>
+    <?php include('../kontrol/pengguna_kontrol.php');?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -33,7 +33,7 @@
             $email = $_POST['email'];
             $pass = md5($_POST['sandi']);
 
-            $masuk = $login->login_sekarang($email, $pass);
+            $masuk = $pengguna->login_sekarang($email, $pass);
             if($masuk){
                 fungsi_redirek('index.php');
             } else {

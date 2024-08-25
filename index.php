@@ -1,7 +1,7 @@
 <?php include('app/app.php'); ?>
 <?php include('app/db.php'); ?>
-<?php include('kontrol/login_kontrol.php');?>
-<?php $login->apakah_login(); ?>
+<?php include('kontrol/pengguna_kontrol.php');?>
+<?php $pengguna->apakah_login(); ?>
 
 <?php
     echo "<span style='color:red;'>ID Kamu: </span>" . $_SESSION['sesi_pengguna'];
