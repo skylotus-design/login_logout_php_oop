@@ -1,7 +1,7 @@
 <?php
     session_start();
 
-    define('url_saya', '/docs_github/login_logout_php_oop/');
+    define('url_saya', '/docs_github/php_oop_login_logout/');
 
     function fungsi_redirek($laman)
     {
